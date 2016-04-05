@@ -25,10 +25,13 @@
     NSData* data = [person1 data];
  
     
-    NSData* raw_data = data;
-    PBUser* person = [PBUser parseFromData:raw_data];
+
+    PBCodedInputStream *personData = [PBCodedInputStream streamWithData:data];
+        
+    NSData *hello = [personData readRawData:person1.serializedSize];
     
-    NSLog(@"%@",person);
+    NSLog(@"%@",hello);
+    
 }
 
 - (void)didReceiveMemoryWarning {
