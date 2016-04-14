@@ -22,6 +22,8 @@
 //    PBUserBuilder * person = [[[[[PBUserBuilder builder] setUserId:@"123"] setName:@"Bob"] setEmail:@"bob@example.com"] build];
     PBUser *person1 = [[[[[PBUser builder] setUserId:@"123"]setNick:@"Bob"]setAvatar:@"Bob@Example.com"] build];
     
+    
+    
     NSData* data = [person1 data];
  
     
