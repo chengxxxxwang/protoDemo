@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		476365D81CC089620008E67E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476365D71CC089620008E67E /* TableViewController.m */; };
 		47D49BB21CA9820400EE7EA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D49BB11CA9820400EE7EA7 /* main.m */; };
 		47D49BB51CA9820400EE7EA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D49BB41CA9820400EE7EA7 /* AppDelegate.m */; };
 		47D49BB81CA9820400EE7EA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D49BB71CA9820400EE7EA7 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		476365D61CC089620008E67E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		476365D71CC089620008E67E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		47D49BAD1CA9820400EE7EA7 /* protoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D49BB11CA9820400EE7EA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47D49BB31CA9820400EE7EA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				47D49BB41CA9820400EE7EA7 /* AppDelegate.m */,
 				47D49BB61CA9820400EE7EA7 /* ViewController.h */,
 				47D49BB71CA9820400EE7EA7 /* ViewController.m */,
+				476365D61CC089620008E67E /* TableViewController.h */,
+				476365D71CC089620008E67E /* TableViewController.m */,
 				47D49BB91CA9820400EE7EA7 /* Main.storyboard */,
 				47D49BBC1CA9820400EE7EA7 /* Assets.xcassets */,
 				47D49BBE1CA9820400EE7EA7 /* LaunchScreen.storyboard */,
@@ -353,6 +358,7 @@
 				47D49BB81CA9820400EE7EA7 /* ViewController.m in Sources */,
 				47D49BE51CA982A300EE7EA7 /* Person.pb.m in Sources */,
 				47D49BB51CA9820400EE7EA7 /* AppDelegate.m in Sources */,
+				476365D81CC089620008E67E /* TableViewController.m in Sources */,
 				47D49BB21CA9820400EE7EA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
